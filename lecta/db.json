@@ -1,0 +1,77 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$w4zidPHi3UoAkPwxeqPWJR$5TbAzc7hCU+Vf7uvj+PRKNn7GsjlJqWttJQwvCjpEVY=",
+      "last_login": "2024-04-10T18:34:58.511Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-04-10T17:20:29.489Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "category.category",
+    "pk": 1,
+    "fields": {
+      "name": "Коррекционная педагогика"
+    }
+  },
+  {
+    "model": "category.category",
+    "pk": 2,
+    "fields": {
+      "name": "Музыка"
+    }
+  },
+  {
+    "model": "category.category",
+    "pk": 3,
+    "fields": {
+      "name": "Английский язык"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 1,
+    "fields": {
+      "title": "Азбука 1 класс",
+      "category": 1,
+      "price": "334.00"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 2,
+    "fields": {
+      "title": "Музыка 3 класс",
+      "category": 2,
+      "price": "311.00"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 3,
+    "fields": {
+      "title": "Английский язык 11 класс",
+      "category": 3,
+      "price": "311.00"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 4,
+    "fields": {
+      "title": "Английский язык базовый уровень",
+      "category": 3,
+      "price": "297.00"
+    }
+  }
+]
